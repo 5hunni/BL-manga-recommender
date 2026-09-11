@@ -8,3 +8,23 @@ h1 {
   color: #c05a83;
 }
 
+#manga-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.manga-card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.manga-card h2 {
+    color: #c05a83;
+}
