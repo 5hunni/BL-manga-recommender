@@ -25,15 +25,15 @@ const supabase = window.supabase.createClient(
 
         card.className = "manga-card";
 
-        card.innerHTML = 
+        card.innerHTML = `
             <h2>${manga.title}</h2>
             <p><strong>Author:</strong> ${manga.author}</p>
             <p><strong>Type:</strong> ${manga.type}</p>
             <p><strong>Status:</strong> ${manga.status}</p>
             <p>${manga.description}</p>
-        ;
+        `;
 
-        containter.appendChild(card);
+        container.appendChild(card);
     });
 
 }
